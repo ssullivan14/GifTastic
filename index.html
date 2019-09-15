@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Music GifTastic</h1>
+        </div>
+        <br>
+    </div>
+
+    <div class="container">
+        <h1>Artist Search</h1>
+    
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div id="buttons-view"></div>
+        <br>
+        <form id="artist-form">
+          <label for="artist-input">Search for a Music Artist!</label>
+          <input type="text" id="artist-input"><br>
+          <br>
+    
+          <!-- Button triggers new movie to be added -->
+          <input id="add-artist" type="submit" value="Search for a Music Artist">
+        </form>
+   
+    
+        <!-- Movies will Get Dumped Here -->
+        <div id="artist-view"></div>
+    <br>
+    <div class="card-footer bg-transparent border-success">Footer</div>
+   
+
+    <script type="text/javascript" src="javascript/gif.js"></script>
+
+</body>
+
+</html>
